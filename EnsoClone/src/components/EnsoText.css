@@ -1,8 +1,8 @@
 #ensoTextarea {
-    position:static;
+    position:absolute;
     top:25rem;
     white-space: pre-line;
-    min-width: 30vw;
+    min-width: 25vw;
     font-size: 1.2rem;
     height: 10rem;
     resize: none;
@@ -14,7 +14,8 @@
     background: transparent;
     left: auto;
     right: auto;
-    color:black;
+    color:rgb(173, 173, 155);
+    font-family:Arial, Helvetica, serif
     
 }
 #ensoTextarea:focus{
@@ -24,15 +25,15 @@
 #ensoOverlay{
     position:absolute;
     top:25rem;
-
-    min-width: 30vw;
+    min-width: 25vw;
     height: 8rem;
 }
 
 #ensoOverlay span{
     display: block;
-    background-color: beige;
+    background-color: rgb(32, 32, 32);
     height: calc(2rem);
+    min-width: 25vw;
     width: 100%;
     transition: background-color .3s;
 }
@@ -43,8 +44,8 @@
     opacity: .80;
   }
 #ensoOverlay span:nth-child(3) {
-    opacity: .60;
+    opacity: .65;
   }
 #ensoOverlay span:nth-child(4) {
-    opacity: .30;
+    opacity: .50;
   }
